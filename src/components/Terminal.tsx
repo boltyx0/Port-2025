@@ -20,14 +20,14 @@ Available commands:
 `,
   about: `
 ┌───────────────────────────────────────────────────────────┐
-│  SECURITY CONSULTANT                                      │
+│  SECURITY CONSULTANT                                      
 ├───────────────────────────────────────────────────────────┤
-│  I use offensive security to help customers make          │
-│  better security decisions, assessing risk, validating    │
-│  security controls, and supporting the adoption           │
-│  of solutions that fit real-world environments.           │
-│                                                           │
-│  "Breaking systems to make them stronger."                │
+│  I use offensive security to help customers make          
+│  better security decisions, assessing risk, validating    
+│  security controls, and supporting the adoption           
+│  of solutions that fit real-world environments.           
+│                                                           
+│  "Breaking systems to make them stronger."                
 └───────────────────────────────────────────────────────────┘
 `,
   skills: `
@@ -51,22 +51,22 @@ Available commands:
 `,
   certs: `
 ╔════════════════════════════════════════════════════════════════════════════════╗
-║  [✓] CPTS - Hack The Box Certified Penetration Testing Specialist (2025)       ║
-║  [✓] OSCP+ - Offsec Certified Professional+ (2025)                             ║
-║  [✓] eJPT - eLearnSecurity Junior Penetration Tester (2023)                    ║
-║  [✓] PCNSA - Palo Alto Networks Certified Network Security Admin (2024)        ║
-║  [✓] ISC² Certified in Cybersecurity (CC) (2023)                               ║
-║  [✓] CNSP - Certified Network Security Practitioner (2024)                     ║
+║  [✓] CPTS - Hack The Box Certified Penetration Testing Specialist (2025)       
+║  [✓] OSCP+ - Offsec Certified Professional+ (2025)                             
+║  [✓] eJPT - eLearnSecurity Junior Penetration Tester (2023)                    
+║  [✓] PCNSA - Palo Alto Networks Certified Network Security Admin (2024)        
+║  [✓] ISC² Certified in Cybersecurity (CC) (2023)                               
+║  [✓] CNSP - Certified Network Security Practitioner (2024)                     
 ╚════════════════════════════════════════════════════════════════════════════════╝
 `,
   contact: `
 ┌─ SECURE CHANNELS ─────────────────────────────────────────────┐
-│                                                            │
-│  [>] Email:    bagulprath@gmail.com                        │
-│  [>] GitHub:   github.com/prath-10                         │
-│  [>] LinkedIn: linkedin.com/in/prathameshbagul             │
-│  [>] Twitter:  @prath_10                                   │
-│                                                            │
+│                                                            
+│  [>] Email:    bagulprath@gmail.com                        
+│  [>] GitHub:   github.com/prath-10                         
+│  [>] LinkedIn: linkedin.com/in/prathameshbagul             
+│  [>] Twitter:  @prath_10                                   
+│                                                            
 └────────────────────────────────────────────────────────────────┘
 `,
   whoami: 'root@kali:~# prathamesh_bagul',
