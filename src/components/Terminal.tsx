@@ -53,7 +53,9 @@ Available commands:
 ╔════════════════════════════════════════════════════════════════════════════════╗
 ║  [✓] CPTS - Hack The Box Certified Penetration Testing Specialist (2025)       
 ║  [✓] OSCP+ - Offsec Certified Professional+ (2025)                             
+║  [✓] CRTOM - Certified Red Team Operations Management (2025)                             
 ║  [✓] eJPT - eLearnSecurity Junior Penetration Tester (2023)                    
+║  [✓] CCEP - Certified Cybersecurity Educator Professional (2025)                             
 ║  [✓] PCNSA - Palo Alto Networks Certified Network Security Admin (2024)        
 ║  [✓] ISC² Certified in Cybersecurity (CC) (2023)                               
 ║  [✓] CNSP - Certified Network Security Practitioner (2024)                     
@@ -86,7 +88,7 @@ Available commands:
 
 export const Terminal = () => {
   const [history, setHistory] = useState<TerminalLine[]>([
-    { type: 'output', content: 'Welcome to the Security Research Terminal v1.0' },
+    { type: 'output', content: 'Welcome to the Terminal' },
     { type: 'output', content: 'Type "help" for available commands.\n' },
   ]);
   const [input, setInput] = useState('');
