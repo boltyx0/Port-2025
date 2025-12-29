@@ -86,7 +86,7 @@ Available commands:
 
 export const Terminal = () => {
   const [history, setHistory] = useState<TerminalLine[]>([
-    { type: 'output', content: 'Welcome to the Security Research Terminal v1.0' },
+    { type: 'output', content: 'Welcome to the Terminal' },
     { type: 'output', content: 'Type "help" for available commands.\n' },
   ]);
   const [input, setInput] = useState('');
