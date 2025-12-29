@@ -20,15 +20,14 @@ Available commands:
 `,
   about: `
 ┌───────────────────────────────────────────────────────────┐
-│  OFFENSIVE SECURITY RESEARCHER & PENETRATION TESTER      │
+│  SECURITY CONSULTANT                                      │
 ├───────────────────────────────────────────────────────────┤
-│  Specialized in identifying vulnerabilities before       │
-│  malicious actors do. With expertise in web app          │
-│  security, network penetration testing, and red team     │
-│  operations, I help organizations strengthen their       │
-│  security posture through ethical hacking.               │
+│  I use offensive security to help customers make          │
+│  better security decisions, assessing risk, validating    │
+│  security controls, and supporting the adoption           │
+│  of solutions that fit real-world environments.           │
 │                                                           │
-│  "Breaking systems to make them stronger."               │
+│  "Breaking systems to make them stronger."                │
 └───────────────────────────────────────────────────────────┘
 `,
   skills: `
@@ -49,37 +48,33 @@ Available commands:
 [02] Bug Bounty Findings
      └─ Acknowledged vulnerabilities across global programs
      └─ linkedin.com/in/prathameshbagul
-     
-[03] OpenRedire Injectbolt
-     └─ Open-redirect fuzzer with custom payloads & automation
-     └─ github.com/prath-10/Inject-Bolt
 `,
   certs: `
-╔═══════════════════════════════════════════════════════════════════════════╗
-║  [✓] CPTS - Hack The Box Certified Penetration Testing Specialist (2025) ║
-║  [✓] OSCP+ - Offsec Certified Professional+ (2025)                        ║
-║  [✓] eJPT - eLearnSecurity Junior Penetration Tester (2023)               ║
-║  [✓] PCNSA - Palo Alto Networks Certified Network Security Admin (2024)  ║
-║  [✓] ISC² Certified in Cybersecurity (CC) (2023)                          ║
-║  [✓] CNSP - Certified Network Security Practitioner (2024)                ║
-╚═══════════════════════════════════════════════════════════════════════════╝
+╔════════════════════════════════════════════════════════════════════════════════╗
+║  [✓] CPTS - Hack The Box Certified Penetration Testing Specialist (2025)       ║
+║  [✓] OSCP+ - Offsec Certified Professional+ (2025)                             ║
+║  [✓] eJPT - eLearnSecurity Junior Penetration Tester (2023)                    ║
+║  [✓] PCNSA - Palo Alto Networks Certified Network Security Admin (2024)        ║
+║  [✓] ISC² Certified in Cybersecurity (CC) (2023)                               ║
+║  [✓] CNSP - Certified Network Security Practitioner (2024)                     ║
+╚════════════════════════════════════════════════════════════════════════════════╝
 `,
   contact: `
-┌─ SECURE CHANNELS ─────────────────────────────────────────┐
+┌─ SECURE CHANNELS ─────────────────────────────────────────────┐
 │                                                            │
-│  [>] Email:    bagulprath@gmail.com                       │
-│  [>] GitHub:   github.com/prath-10                        │
-│  [>] LinkedIn: linkedin.com/in/prathameshbagul            │
-│  [>] Twitter:  @prath_10                                  │
+│  [>] Email:    bagulprath@gmail.com                        │
+│  [>] GitHub:   github.com/prath-10                         │
+│  [>] LinkedIn: linkedin.com/in/prathameshbagul             │
+│  [>] Twitter:  @prath_10                                   │
 │                                                            │
-└────────────────────────────────────────────────────────────┘
+└────────────────────────────────────────────────────────────────┘
 `,
   whoami: 'root@kali:~# prathamesh_bagul',
   neofetch: `
        ▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄
        ██ ▄▄▄▄▄ █▄ ▄▄▄█ ▄▄▄▄▄ ██    root@security-research
        ██ █   █ ██▄█ ▄██ █   █ ██   ----------------------
-       ██ █▄▄▄█ █ ▄▄▄▄ █ █▄▄▄█ ██   OS: Kali Linux 2024.1
+       ██ █▄▄▄█ █ ▄▄▄▄ █ █▄▄▄█ ██   OS: Bolt OS
        ██▄▄▄▄▄▄▄█ █▄█ █▄▄▄▄▄▄▄██    Host: Prathamesh Bagul
        ██ ▄▄▄ ▄▄▄▄▄█ ▄▄ ▄▄▄ ████    Role: Cybersecurity Consultant
        ██▄█▄█▄▄▄▄▄▄█▄██▄█▄█▄████    Location: Dubai, UAE
@@ -158,16 +153,16 @@ export const Terminal = () => {
         <div className="text-secondary">┌──(root㉿kali)-[~]</div>
         <form onSubmit={handleSubmit} className="flex items-center">
           <span className="text-secondary">└─$ </span>
+          <span className="cursor-blink text-primary">▌</span>
           <input
             ref={inputRef}
             type="text"
             value={input}
             onChange={(e) => setInput(e.target.value)}
-            className="flex-1 bg-transparent border-none outline-none text-primary caret-primary"
+            className="flex-1 bg-transparent border-none outline-none text-primary caret-transparent ml-1"
             autoFocus
             spellCheck={false}
           />
-          <span className="cursor-blink text-primary">▌</span>
         </form>
       </div>
     </div>
