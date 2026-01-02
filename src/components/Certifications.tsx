@@ -1,6 +1,6 @@
 const certifications = [
   { name: 'CPTS - Hack The Box Certified Penetration Testing Specialist', year: '2025' },
-  { name: 'Offsec Certified Professional+ (OSCP+)', year: '2025' },
+  { name: 'OSCP+ - Offsec Certified Professional+', year: '2025' },
   { name: 'CRTOM - Certified Red Team Operations Management', year: '2025' },
   { name: 'eJPT - eLearnSecurity Junior Penetration Tester', year: '2023' },
   { name: 'CCEP - Certified Cybersecurity Educator Professional', year: '2025' },
